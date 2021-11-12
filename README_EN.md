@@ -1,4 +1,4 @@
-# [中文版](https://github.com/vtddggg/training_template_for_AI_challenger_sea8/blob/main/README_CN.md) | English
+# [中文版](https://github.com/vtddggg/training_template_for_AI_challenger_sea8/blob/main/README.md) | English
 
 ## Usage
 
