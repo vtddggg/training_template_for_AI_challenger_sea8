@@ -2,7 +2,7 @@
 
 ## Usage
 
-The code is the training example of AAAI2022 Security AI Challenger Program Phase 8: Data Centric Robot Learning on ML models. 
+The code is the training example of [AAAI2022 Security AI Challenger Program Phase 8: Data Centric Robot Learning on ML models](https://tianchi.aliyun.com/competition/entrance/531939/introduction). 
 Contestants can quickly use the following two commands to train the `resnet50` and `densenet121` models needed for this competition:
 ```
 git clone https://github.com/vtddggg/training_template_for_AI_challenger_sea8.git && cd training_template_for_AI_challenger_sea8
@@ -23,7 +23,7 @@ and these small differences can be ignored in the final verification of performa
 
 Contestants must submit a `.zip` file (including `data.npy`, `label.npy`, `config.py`, `resnet50.pth.tar` and `densenet121.pth.tar`). These files are generated through the following steps:
 
-1. `data.npy`, `label.npy`, `config.py` can be created and modified as user-defined training data and config, but they need to meet the restrictions given in here. In addition to the training data and config, other files in `training_template_for_AI_challenger_sea8` are fixed and cannot be changed by users.
+1. `data.npy`, `label.npy`, `config.py` can be created and modified as user-defined training data and config, but they need to meet the restrictions given in [here](https://tianchi.aliyun.com/competition/entrance/531939/information). In addition to the training data and config, other files in `training_template_for_AI_challenger_sea8` are fixed and cannot be changed by users.
 
 2. replace the above three files in `training_template_for_AI_challenger_sea8` and do `sh train.sh`.
 
