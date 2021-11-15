@@ -15,7 +15,7 @@ When you finish running, a file named `Dataset.zip` will be generated in the cur
 In order to reproduce the training process, all random seeds in the code have been fixed. We encourage competitors to train on a newer version of pytorch. 
 It is recommended to use the pytorch official docker: `pytorch/pytorch: 1.8.1-cuda10.2-cudnn7-runtime`
 
-We open the training log on Geforce RTX 2080ti. 
+We open the [training log](https://github.com/vtddggg/training_template_for_AI_challenger_sea8/blob/main/log.txt) on Geforce RTX 2080ti. 
 It should be noted that training on different types of GPU devices may produce slightly different results, 
 and these small differences can be ignored in the final verification of performance.
 
