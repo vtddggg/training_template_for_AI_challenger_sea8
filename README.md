@@ -16,7 +16,7 @@ sh train.sh
 
 为了重现训练过程，代码中的所有random seed已经固定，我们鼓励选手在新版本的pytorch上进行训练。推荐使用pytorch官方docker：`pytorch/pytorch:1.8.1-cuda10.2-cudnn7-runtime`
 
-我们公开了在GeForce RTX 2080Ti上的训练日志，需要注意在不同型号的GPU设备上训练可能会产生略有差异的结果，这些小差异在最终做成绩验证时可忽略
+我们公开了在GeForce RTX 2080Ti上的[训练日志](https://github.com/vtddggg/training_template_for_AI_challenger_sea8/blob/main/log.txt)，需要注意在不同型号的GPU设备上训练可能会产生略有差异的结果，这些小差异在最终做成绩验证时可忽略
 
 ## 创建自己的提交
 选手必须提交一个压缩包（包含`data.npy`, `label.npy`, `config.py`, `resnet50.pth.tar`以及`densenet121.pth.tar`），这5个文件分别通过以下步骤生成：
