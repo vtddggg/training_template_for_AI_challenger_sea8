@@ -33,6 +33,7 @@ class MyDataset(torch.utils.data.Dataset):
         labels = np.load('label.npy')
         assert labels.min() >= 0
         assert images.dtype == np.uint8
+        assert images.shape[0] <= 50000
         self.images = [Image.fromarray(x) for x in images]
         self.labels = labels / labels.sum(axis=1, keepdims=True) # normalize
         self.labels = self.labels.astype(np.float32)
