@@ -58,9 +58,10 @@ def main():
         else:
             args = args_densenet
         assert args['epochs'] <= 200
-        # force the batch_size to 256, and scaling the lr
-        args['optimizer_hyperparameters']['lr'] *= 256/args['batch_size']
-        args['batch_size'] = 256
+        if args['batch_size'] > 256:
+            # force the batch_size to 256, and scaling the lr
+            args['optimizer_hyperparameters']['lr'] *= 256/args['batch_size']
+            args['batch_size'] = 256
         # Data
         transform_train = transforms.Compose([
             transforms.RandomCrop(32, padding=4),
