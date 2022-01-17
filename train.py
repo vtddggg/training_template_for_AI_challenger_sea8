@@ -14,7 +14,7 @@ import torch.utils.data as data
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 from PIL import Image
-from config import args_resnet, args_densenet
+from config import args_wideresnet, args_preactresnet18
 from utils import load_model, AverageMeter, accuracy
 
 # Use CUDA
@@ -52,11 +52,11 @@ def cross_entropy(outputs, smooth_labels):
 
 def main():
 
-    for arch in ['resnet50', 'densenet121']:
-        if arch == 'resnet50':
-            args = args_resnet
+    for arch in ['preactresnet18', 'wideresnet']:
+        if arch == 'wideresnet':
+            args = args_wideresnet
         else:
-            args = args_densenet
+            args = args_preactresnet18
         assert args['epochs'] <= 200
         if args['batch_size'] > 256:
             # force the batch_size to 256, and scaling the lr
