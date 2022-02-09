@@ -2,6 +2,10 @@
 
 # 中文版 | [English](https://github.com/vtddggg/training_template_for_AI_challenger_sea8/blob/main/README_EN.md)
 
+为了更好的研究以数据为中心的鲁棒机器学习，我们公开了初赛/复赛使用的测试集合，供大家使用：
+初赛测试集：https://drive.google.com/file/d/1CtK2tkYncn5uX4OJH4QQAFO_NN6ocEzy/view?usp=sharing
+复赛测试集：https://drive.google.com/file/d/1ZofA9X2cMtGC7fXA7_Qrr-1KhL3fo3u-/view?usp=sharing
+
 ## 使用方法
 
 该代码是[AAAI2022 安全AI挑战者计划第八期：Data-Centric Robust Learning on ML Models](https://tianchi.aliyun.com/competition/entrance/531939/introduction)复赛阶段的训练示例。选手可简单的使用以下两条命令训练`wideresnet`以及`preactresnet18`模型：
