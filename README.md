@@ -3,7 +3,9 @@
 # 中文版 | [English](https://github.com/vtddggg/training_template_for_AI_challenger_sea8/blob/main/README_EN.md)
 
 为了更好的研究以数据为中心的鲁棒机器学习，我们公开了初赛/复赛使用的测试集合，供大家使用：
+
 初赛测试集：https://drive.google.com/file/d/1CtK2tkYncn5uX4OJH4QQAFO_NN6ocEzy/view?usp=sharing
+
 复赛测试集：https://drive.google.com/file/d/1ZofA9X2cMtGC7fXA7_Qrr-1KhL3fo3u-/view?usp=sharing
 
 ## 使用方法
