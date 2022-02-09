@@ -1,5 +1,11 @@
 # [中文版](https://github.com/vtddggg/training_template_for_AI_challenger_sea8/blob/main/README.md) | English
 
+In order to promote the study of data centric robust machine learning, we have opened the test set used in the preliminary / semi-finals in this competition:
+
+Test set for stage I: https://drive.google.com/file/d/1CtK2tkYncn5uX4OJH4QQAFO_NN6ocEzy/view?usp=sharing
+
+Test set for stage II: https://drive.google.com/file/d/1ZofA9X2cMtGC7fXA7_Qrr-1KhL3fo3u-/view?usp=sharing
+
 ## Usage
 
 The code is the training example of [AAAI2022 Security AI Challenger Program Phase 8: Data Centric Robot Learning on ML models](https://tianchi.aliyun.com/competition/entrance/531939/introduction). 
